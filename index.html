@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Blog</title>
+  <link rel="stylesheet" href="./css/app.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html ">
+        <img src="./img/—Pngtree—wearing mask  design illustration_5339821.png" class=" w-auto" style=" height: 5vh;"
+          alt="">
+      </a>
+      <div class=" input-group w-25">
+        <span class=" input-group-text border-end-0">
+          <i class=" bi bi-search"></i>
+        </span>
+        <input type="text" class=" form-control border-start-0" name="" id="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class=" bi bi-pencil-square"></i>Write
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-success rounded-pill text-white " href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User <img src="./img/user.jpeg" class="border rounded-circle" height="30vh" alt="">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="blog">
+      <div class=" container">
+        <div class="row">
+          <div class=" col-md-8 col-xl-9">
+            <div class="banner mt-5">
+              <div class="d-flex align-items-center mb-3   ">
+                <div class="bg-secondary py-1 px-2 me-2 rounded-circle">
+                  <i class="bi bi-tag-fill"></i>
+                </div>
+                <h1 class="fw-bold">Programming</h1>
+              </div>
+              <div class="">
+                <button class="btn btn-sm btn-success me-2">Follow</button>
+                <button class="btn btn-sm btn-outline-success">Start writing</button>
+
+              </div>
+            </div>
+            <div class="tab mt-3">
+              <ul class="nav ">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Latest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Best</a>
+                </li>
+              </ul>
+            </div>
+            <div class="articles">
+              <article>
+                <hr>
+                <div class="writer d-flex align-items-center mb-3">
+                  <img src="./img/user.jpeg" class="border rounded-circle me-3" height="30vh" alt="">
+                  <a href="#" class=" text-decoration-none me-3 text-dark small">Sebastian Carlos</a>
+                  <a href="#" class="text-decoration-none text-black-50 small">15 hours ago</a>
+                </div>
+                <div class="row">
+                  <div class="col-9">
+                    <a href="#" class="h4 d-block text-decoration-none fw-bold text-dark">Splitting Windows on Vim</a>
+                    <a href="#" class="text-decoration-none text-black-50 font-serif">Screens are big these days, so it makes sense to split them to see multiple
+                      files at the same time, or different parts of the same file at the same time. Most editors can be
+                      split into different regions. On Vim, these regions are called “windows.” Splitting Windows To
+                      open a new… </a>
+                    <div class="">
+                      <div class="d-flex justify-content-between align-items-center mt-4">
+                        <a href="#" class="btn btn-secondary btn-sm">Programming</a>
+                        <span>4 min read</span>
+                      </div>
+                      <i class=" bi bi-bookmark-plus"></i>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <img src="https://miro.medium.com/v2/resize:fill:224:224/1*5bXCQTiofSu_Gb3qPyRmtw.jpeg" alt="">
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class=" col-md-4 col-xl-3"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+// font-family: 'IBM Plex Sans', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$navbar-nav-link-padding-x:  1.5rem;
+
+$secondary: #ededed;
+
+$input-bg: #fafafa; 
+$input-border-color: #ffffff00;
+$input-group-addon-bg: #fafafa;
+$input-border-radius: 2rem;
+
+$btn-border-radius-sm: 2rem;
+$btn-padding-x-sm: 1rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+//   xxl: 1320px
+);   
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.tab a{
+    color: gray;
+}
+
+.tab a:hover{
+    color: black;
+}
+
+.font-serif{
+    font-family: 'IBM Plex Sans', sans-serif;;
+}
