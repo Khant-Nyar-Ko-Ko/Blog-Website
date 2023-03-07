@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail</title>
+  <link rel="stylesheet" href="./css/app.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html ">
+        <img src="./img/—Pngtree—wearing mask  design illustration_5339821.png" class=" w-auto" style=" height: 5vh;"
+          alt="">
+      </a>
+      <div class=" input-group w-25">
+        <span class=" input-group-text border-end-0">
+          <i class=" bi bi-search"></i>
+        </span>
+        <input type="text" class=" form-control border-start-0" placeholder="Search in My Blog" name="" id="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class=" bi bi-pencil-square"></i>Write
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-success rounded-pill text-white " href="./register.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Sign In</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User <img src="./img/user.jpeg" class="border rounded-circle" height="30vh" alt="">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="blog">
+      <div class=" container">
+        <div class="row g-5">
+          <div class=" col-md-8">
+            <div class="row align-items-center my-5">
+              <div class="col-1">
+                <img src="./img/user.jpeg" alt="" class="w-100 rounded-circle">
+              </div>
+              <div class="col-6">
+                <p class="mb-0 para fw-bold">Sebastian Carlos</p>
+                <p class="mb-0 para small text-black-50">Mar 5 . 4 min read </p>
+              </div>
+              <div class="col-4">
+                <div class="text-end personal-social-link ">
+                  <a href="#" class="text-decoration-none text-muted h5">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none text-muted h5">
+                    <i class="bi bi-facebook"></i>
+  
+                  </a>
+                  <a href="#" class="text-decoration-none text-muted h5">
+                    <i class="bi bi-linkedin"></i>
+  
+                  </a>
+                  <a href="#" class="text-decoration-none text-muted h5">
+                    <i class="bi bi-clipboard"></i>
+  
+                  </a>
+                </div>
+              </div>
+              <div class="col-1">
+                <button class="btn btn-link">
+                  <i class="bi bi-bookmark-plus text-dark h5 "></i>
+                </button>
+              </div>
+            </div>
+            <div class="article-detail para">
+              <h3 class="mb-5">Splitting Windows on Vim</h3>
+              <p class="mb-4">Photo by Max van den Oetelaar on Unsplash
+                Screens are big these days, so it makes sense to split them to see multiple files at the same time, or
+                different parts of the same file at the same time.
+
+                Most editors can be split into different regions. On Vim, these regions are called “windows.”</p>
+
+
+              <h4 class="mb-4">Splitting Windows</h4>
+              <p class="mb-4">
+                To open a new window, you can use the :split command (or CTRL-W s), which splits the screen horizontally
+                into two windows showing the same file. To split them vertically use :vsplit or CTRL-W v.
+
+                CTRL-W w can be used to jump between all the open windows. It wraps around.
+
+                You’ll notice that all the Window commands on Vim have the form CTRL-W {char}, in which you must press
+                CTRL-W first and then another character. (CTRL-W CTRL-{char} does the same thing, in case you let go of
+                the CTRL key a bit later.)</p>
+
+              <p class="mb-4">
+                To close a window, use the :close command (or CTRL-W c).
+
+                The :only command (or CTRL-W o) closes all windows except for the current one.</p>
+
+              <h4 class="mb-4">Tabs and Windows</h4>
+              <p class="mb-4">Happy editors are all alike; every unhappy editor is unhappy in its own way.
+
+                It must be observed that every single modern editor known to mankind — including but not limited to
+                Sublime Text, Atom, VSCode, and JetBrains editors — let you split the screen into multiple panes and
+                then have tabs inside each pane. <br>
+
+                But Vim does the opposite — It has tabs that contain split panes (aka windows):</p>
+
+                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5bXCQTiofSu_Gb3qPyRmtw.jpeg" class="w-100" alt="">
+
+                <h4 class="my -4">Closing thoughts</h4>
+                <p class="my-4">
+                    If you made it this far, you are the chosen one to bring balance to the Vim. Go forth and use your newfound knowledge to bring peace to this land. Resist the temptation of VSCode and all other dark forces.
+                    
+                    Microsoft and all the dark lords of the software engineering universe will tremble at the sound of your name if you manage to avoid their telemetry of despair, which empowers their soulless machines of doom.
+                    
+                    Good luck. May the Vimscript be with you.</p>
+              </div>
+            </div>
+            
+          <div class=" col-md-4">
+            <div class="my-5">
+              <div class="row g-0">
+                <div class="col-6">
+                  <h4 class=" fw-bold">286K</h4>
+                  <p>Stories</p>
+                </div>
+                <div class="col-6">
+                  <h4 class=" fw-bold">97K</h4>
+                  <p>Writers</p>
+                </div>
+              </div>
+              <div class="user">
+                <img alt="Yancy Dennis" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*Oh9b3kP25xyBUBuw_4oOOA.jpeg" width="36"
+                  height="36" loading="lazy">
+
+
+                <img alt="Samarthya" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*r190B2AUImC1sVFcy25QYQ.jpeg" width="36"
+                  height="36" loading="lazy">
+
+
+                <img alt="Sunny Sun" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*wNZ_uqRg-IDdEkWRUw27pA.jpeg" width="36"
+                  height="36" loading="lazy">
+
+
+                <img alt="Kat Li" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/2*SqJUDDJBNy5s8STcdWhh-w.jpeg" width="36"
+                  height="36" loading="lazy">
+
+                <img alt="Aiden (@func25)" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*EOFI77eyIbTc4YYx5gwqFw.jpeg" width="36"
+                  height="36" loading="lazy">
+
+
+                <img alt="ĐINH Đăng Khoa" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*bKN2igxgBf0fY521xgMPZA.jpeg" width="36"
+                  height="36" loading="lazy">
+
+                <img alt="Stephen Adesina" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*iJjNV5TS4Q4_0ZQxpR0_xA.jpeg" width="36"
+                  height="36" loading="lazy">
+
+
+                <img alt="Federico Mannucci" class="y cn jo zu zv em"
+                  src="https://miro.medium.com/v2/resize:fill:72:72/1*b6Y--lqIEaadJe_oiJqmxA.png" width="36" height="36"
+                  loading="lazy">
+
+              </div>
+            </div>
+            <hr>
+            <div class="position-sticky" style="top:30px">
+              <div class="topics">
+                <p class=" fw-bold mt-5 mb3">Related Topics</p>
+                <div class="mb-5">
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Software Development
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    JavaScript
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Web Development
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Coding
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Technology
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Python
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Data Science
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Software Engineering
+                  </a>
+                  <a href="#" class="btn btn-secondary mb-2">
+                    Machine Learning
+                  </a>
+                </div>
+              </div>
+              <div class="writers">
+                <p class=" fw-bold mt-5 mb3">Top Writers</p>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/—Pngtree—wearing mask  design illustration_5339821.png" alt=""
+                        class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">
+                        Josep Ferrer</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">Somnath Singh</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="writer mb-3">
+                  <div class="row g-">
+                    <div class="col-2">
+                      <img src="./img/user.jpeg" alt="" class="rounded-circle w-100">
+                    </div>
+                    <div class="col-7">
+                      <p class="small fw-bold mb-0">javinpaul</p>
+                      <p class="small text-truncate">I am Java programmer, blogger, working on Java,</p>
+                    </div>
+                    <div class="col-3">
+                      <a href="" class="btn btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="text-black-50">Visit the archive</p>
+                <div class="">
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Help</a>
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Status</a>
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Writers</a>
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Blog</a>
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Privacy</a>
+                  <a href="" class="text-decoration-none text-black-50 me-1 small">Text to speech</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
